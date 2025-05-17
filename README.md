@@ -37,7 +37,7 @@ A browser-based terminal interface that replicates real command-line behavior us
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/web-terminal.git
+   git clone https://github.com/Dhiren1211/web-terminal.git
    ```
 
 2. Place the project in a PHP-enabled server (e.g., XAMPP `htdocs` folder).
