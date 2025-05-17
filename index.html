@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <span class="terminal-title">Web Terminal</span>
+            <span class="terminal-controls">― □ ×</span>
+        </div>
+        <div class="terminal-body" id="output">
+            <div class="welcome-message">Welcome to Web Terminal. Type 'help' for commands.</div>
+            <div class="command-line">
+                <span class="prompt">$</span>
+                <span class="input" id="command-input" contenteditable="true"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
