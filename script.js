@@ -137,7 +137,8 @@ cd [path]     - Change current directory
 ipconfig      - Show network configuration
 color <name>  - Change text color
 calc <exp>    - Simple calculator (e.g. calc 5 + 3)
-cat <file>    - View file contents`;
+cat <file>    - View file contents
+credits        - To know the contributions`;
 
       case "clear":
         clearTerminal();
@@ -147,8 +148,9 @@ cat <file>    - View file contents`;
         return new Date().toString();
 
       case "about":
-        return "Web Terminal v3.6 - Created with HTML, CSS, JS, and PHP";
-
+        return "Web Terminal v0.1 - Created with HTML, CSS, JS, and PHP";
+      case "credits":
+         return "Web Terminal v0.1 - Created by Dhirendra Kathayat";
       default:
         if (command.toLowerCase().startsWith("dir")) {
           const path = command.substring(3).trim();
